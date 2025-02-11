@@ -1,0 +1,70 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course {
+  color: #fff;
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+}
+
+.course-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.course-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid;
+  border-radius: 8px 8px 0 0;
+}
+
+.course-details {
+  padding: 15px;
+}
+
+.course-title {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.course-intro {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.enroll-btn,
+.price-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 45%;
+  margin: 5px;
+}
+
+.enroll-btn:hover {
+  background-color: #45a049;
+}
+
+.price-btn {
+  background-color: #f44336;
+}
+
+.price-btn:hover {
+  background-color: #e53935;
+}
